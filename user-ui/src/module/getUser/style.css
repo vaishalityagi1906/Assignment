@@ -1,0 +1,114 @@
+h2 {
+  margin: 0 0 20px;
+}
+strong {
+  display: block;
+  background-color: gray;
+  padding: 10px;
+}
+.container {
+  max-width: 260px;
+  margin: 30vh auto;
+}
+.input-box {
+  padding-bottom: 3.5rem;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+.input-box input[type="text"] {
+  width: 71%;
+}
+button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 27%;
+  background-color: #e7e7e7;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+button:hover {
+  background-color: #fff;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  border-left: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+}
+ul li {
+  list-style-type: none;
+  border-bottom: 3px solid #ccc;
+  padding: 12px 20px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checked {
+  color: orange;
+}
+.username {
+  width: 76%;
+}
+.username > span {
+  font-size: 11px;
+  color: grey;
+}
+.fa-star,
+.fa-trash-o {
+  cursor: pointer;
+}
+.popup-container {
+  background-color: #fbf4f4;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  width: 44%;
+  padding: 40px;
+  text-align: center;
+}
+.popup-container button {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#page-numbers {
+  list-style: none;
+  display: flex;
+  border-bottom: 3px solid #ccc;
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: grey;
+  user-select: none;
+  cursor: pointer;
+  border-bottom: 0;
+  padding: 5px;
+  justify-content: flex-end;
+}
